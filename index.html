@@ -9,42 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Calculadora</title>
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
-   <div>
+    <div>
         <input class="display">
-        <button class="cinza-button">AC</button>
-        <button class="cinza-button">+/-</button>
-        <button class="button-azul">/</button>
-        <button class="button-azul">*</button>
-        <button class="black-button">7</button>
-        <button class="black-button">8</button>
-        <button class="black-button">9</button>
-        <button class="button-azul">-</button>
-        <button class="black-button">4</button>
-        <button class="black-button">5</button>
-        <button class="black-button">6</button>
-        <button class="button-azul">+</button>
-        <button class="black-button" onclick="adicionarCaracter()">1</button>
-        <button class="black-button">2</button>
-        <button class="black-button">3</button>
-        <button class="igual-button igual">=</button>
-        <button class="black-button zero">0</button>
-        <button class="black-button">.</button>
+        <button class="cinza-button" onclick="limpaTela()">AC</button>
+        <button class="cinza-button" onclick="inverterNumero()">+/-</button>
+        <button class="button-azul"  onclick="adicionarCaracter('/')">/</button>
+        <button class="button-azul"  onclick="adicionarCaracter('*')">*</button>
+        <button class="black-button" onclick="adicionarCaracter('7')">7</button>
+        <button class="black-button" onclick="adicionarCaracter('8')">8</button>
+        <button class="black-button" onclick="adicionarCaracter('9')">9</button>
+        <button class="button-azul"  onclick="adicionarCaracter('-')">-</button>
+        <button class="black-button" onclick="adicionarCaracter('4')">4</button>
+        <button class="black-button" onclick="adicionarCaracter('5')">5</button>
+        <button class="black-button" onclick="adicionarCaracter('6')">6</button>
+        <button class="button-azul"  onclick="adicionarCaracter('+')">+</button>
+        <button class="black-button" onclick="adicionarCaracter('1')">1</button>
+        <button class="black-button" onclick="adicionarCaracter('2')">2</button>
+        <button class="black-button" onclick="adicionarCaracter('3')">3</button>
+        <button class="igual-button igual" onclick="calcular()">=</button>
+        <button class="black-button zero" onclick="adicionarCaracter('0')">0</button>
+        <button class="black-button" onclick="adicionarCaracter('.')">.</button>
 
     </div>
 </body>
 
-<script>
-
-    function adicionarCaracter(){
-        const display = document.querySelector("")
-
-
-    }
-
-
-</script>
 
 </html>
