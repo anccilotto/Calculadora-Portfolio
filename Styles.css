@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #DAF0FF;
+    background-color: #000000;
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -17,7 +17,7 @@ body {
 }
 
 div {
-    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    background: linear-gradient(191.34deg, #52607c -4.95%, #000000 103.74%);
     border-radius: 39px;
     width: 375px;
     height: 568px;
@@ -32,7 +32,7 @@ input {
     font-size: 48px;
     grid-column: 1 / 5;
     grid-row: 1 / 3;
-    background: #17181A;
+    background: #000000;
     border: none;
     outline: none;
     text-align: right;
